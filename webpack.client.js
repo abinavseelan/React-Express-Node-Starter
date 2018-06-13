@@ -23,9 +23,10 @@ module.exports = {
         open: true,
         hot: true,
         inline: true,
+        historyApiFallback: true,
         stats: "errors-only",
         proxy: {
-            "*": {
+            "/api": {
                 target: "http://localhost:9001",
             }
         }

@@ -8,7 +8,7 @@ if (PROD) {
     app.use('/', express.static('dist'));
 }
 
-app.get('/message', (req, res) => {
+app.get('/api/message', (req, res) => {
     res.send('Build something amazing! 🚀');
 });
 

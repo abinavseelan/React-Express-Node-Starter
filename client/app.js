@@ -15,7 +15,7 @@ class App extends Component {
 
     componentDidMount() {
         request
-            .get('/message')
+            .get('/api/message')
             .then(response => {
                 this.setState({
                     message: response.data,
