@@ -2,6 +2,8 @@
 
 Starter project for building apps with React, NodeJS and ExpressJS with Hot Module Reloading.
 
+Like this starter project? [⭐️ it on Github](https://github.com/abinavseelan/React-Express-Node-Starter/edit/master/README.md) to support it! 😄
+
 ## Development
 
 To run the development build, run `npm run start:dev`.
